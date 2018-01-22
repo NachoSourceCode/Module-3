@@ -54,7 +54,6 @@ namespace WhileStatement
             // iterates through the file one line at a time until there are no more lines available.
             source.Text = "";
             string line = reader.ReadLine();
-
             while (line != null)
             {
                 source.Text += line + '\n';
